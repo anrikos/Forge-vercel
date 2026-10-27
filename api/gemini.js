@@ -43,7 +43,7 @@ export default async function handler(req) {
       });
     }
 
-    const model = 'gemini-3.1-pro-preview';
+    const model = 'gemini-3.1-flash';
     const baseUrl = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`;
     const finalUrl = `${baseUrl}?key=${encodeURIComponent(apiKey)}`;
 
