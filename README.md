@@ -1,36 +1,35 @@
 # Prompt Market Analyzer 🛒🤖
 
-Веб-приложение для автоматизации анализа цен на продукты в торговых сетях. Сервис формирует детализированные промпты для нейросетей, поддерживает голосовой ввод списков товаров и умеет работать напрямую с API Google Gemini через Vercel Edge.
-
-**Живой проект доступен по адресу:** [forge-vercel-hazel.vercel.app](https://vercel.app)
+Language / Язык: **English** | [Русский (Russian)](README.ru.md)
 
 ---
 
-## ✨ Возможности (Features)
+An intelligent web application designed to automate grocery price analysis across various retail chains. The service generates well-structured, detailed prompts for AI, supports hands-free voice input, and communicates directly with the Google Gemini API via Vercel Edge Serverless functions.
 
-* **Голосовой ввод (Speech Recognition):** Возможность надиктовать список магазинов и продуктовую корзину голосом на русском языке.
-* **Прямая интеграция с Gemini API:** Отправка запросов к ИИ прямо из интерфейса через легкий бэкенд на Vercel.
-* **Безопасное хранение:** API-ключ сохраняется исключительно локально в браузере пользователя (`localStorage`).
-* **Мультиплатформенность:** Если ключ не задан, приложение позволяет в один клик скопировать промпт и открыть его в ChatGPT, Microsoft Copilot или Google AI.
-* **Modern UI:** Футуристичный адаптивный интерфейс с темной темой и поддержкой Blur-эффектов (стеклянный дизайн).
+**Live Demo:** [forge-vercel-hazel.vercel.app](https://vercel.app)
 
----
+## ✨ Features
+* **Voice-to-Text Input:** Dictate grocery lists and store names naturally using your microphone (Web Speech API).
+* **Direct Gemini API Integration:** Execute market analysis requests straight from the dashboard through a secure Vercel Edge proxy.
+* **Privacy-First:** Your Gemini API key is stored securely on your own device inside the browser's `localStorage`.
+* **Multi-Platform Support:** Instantly export generated prompts and launch them in ChatGPT, Microsoft Copilot, or Google AI with a single click.
+* **Modern Glassmorphic UI:** A futuristic, responsive dark-themed interface built with smooth blur effects and modern CSS variables.
 
-## 🛠 Структура и архитектура проекта
-
-Проект спроектирован для мгновенного развертывания в инфраструктуре Vercel и работает без локальной сборки:
-
-* **Frontend (`index.html`):** Асинхронное клиентское приложение на чистом JavaScript, CSS переменных и библиотеке FontAwesome.
-* **Backend (`api/`):** Прокси-эндпоинт (`/api/gemini`) для безопасного перенаправления запросов к серверам Google AI без раскрытия ключей на клиенте.
-* **Конфигурация (`vercel.json`):** Файл маршрутизации и правил развертывания для Edge/Serverless среды Vercel.
+## 🛠 Project Structure
+The project is tailored for instant deployment on the Vercel platform without requiring any local build steps or external package installations:
+* **`index.html`** – Frontend client app written in vanilla JavaScript, CSS variables, and FontAwesome icons.
+* **`api/`** – Node.js Serverless Functions that act as an API proxy to pipe requests securely.
+* **`vercel.json`** – Vercel routing configuration and edge deployment rules.
 
 ```text
-├── api/             # Прокси-эндпоинты (Serverless Node.js функции)
-├── index.html       # Веб-интерфейс приложения (Фронтенд)
-└── vercel.json      # Конфигурация развертывания Vercel
+├── api/             # API Endpoints (Node.js Serverless Functions)
+├── index.html       # Web Interface (Frontend client)
+└── vercel.json      # Vercel Deployment Configuration
 ```
 
----
+## 🚀 Deployment
+1. Connect this GitHub repository to your Vercel Account.
+2. Every `git push` into the `main` branch will trigger an automated production deployment on Vercel.
 
 ## 🚀 Развертывание (Deployment)
 
