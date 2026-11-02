@@ -8,9 +8,9 @@
 
 **Живой проект доступен по адресу:** [forge-vercel-hazel.vercel.app](https://vercel.app)
 
-<p align="center">
-  <img src="assets/1.mp4" alt="Demonstration" width="550" style="border-radius: 10px;" />
-</p>
+
+https://github.com/user-attachments/assets/204c92ef-1eed-4272-8f83-e929aa091418
+
 
 ## ✨ Возможности
 * **Голосовой ввод (Speech Recognition):** Возможность надиктовать список магазинов и продуктовую корзину голосом на русском языке.
