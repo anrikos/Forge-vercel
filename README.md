@@ -8,6 +8,10 @@ An intelligent web application designed to automate grocery price analysis acros
 
 **Live Demo:** [forge-vercel-hazel.vercel.app](https://vercel.app)
 
+<p align="center">
+  <img src="assets/1.mp4" alt="Demonstration" width="550" style="border-radius: 10px;" />
+</p>
+
 ## ✨ Features
 * **Voice-to-Text Input:** Dictate grocery lists and store names naturally using your microphone (Web Speech API).
 * **Direct Gemini API Integration:** Execute market analysis requests straight from the dashboard through a secure Vercel Edge proxy.
