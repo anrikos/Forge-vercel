@@ -1,3 +1,5 @@
+
+
 # Prompt Market Analyzer 🛒🤖
 
 Language / Язык: **English** | [Русский (Russian)](README.ru.md)
@@ -8,9 +10,9 @@ An intelligent web application designed to automate grocery price analysis acros
 
 **Live Demo:** [forge-vercel-hazel.vercel.app](https://vercel.app)
 
-<p align="center">
-  <img src="assets/1.mp4" alt="Demonstration" width="550" style="border-radius: 10px;" />
-</p>
+
+https://github.com/user-attachments/assets/7062e7ab-ac57-43d0-ab3d-77c2c92ccf0e
+
 
 ## ✨ Features
 * **Voice-to-Text Input:** Dictate grocery lists and store names naturally using your microphone (Web Speech API).
