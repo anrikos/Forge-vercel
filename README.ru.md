@@ -8,6 +8,10 @@
 
 **Живой проект доступен по адресу:** [forge-vercel-hazel.vercel.app](https://vercel.app)
 
+<p align="center">
+  <img src="assets/1.mp4" alt="Demonstration" width="550" style="border-radius: 10px;" />
+</p>
+
 ## ✨ Возможности
 * **Голосовой ввод (Speech Recognition):** Возможность надиктовать список магазинов и продуктовую корзину голосом на русском языке.
 * **Прямая интеграция с Gemini API:** Отправка запросов к ИИ прямо из интерфейса через легкий бэкенд-прокси на Vercel.
